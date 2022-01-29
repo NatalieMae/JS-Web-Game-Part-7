@@ -16,6 +16,10 @@ async function moveNPC(){
 }
 moveNPC()
 
+while (npc <= 2) {
+    console.log(npc);
+        npc++;
+}
 
 // Create the inventory
 const inventory = newInventory()
