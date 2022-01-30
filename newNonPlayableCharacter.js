@@ -52,6 +52,9 @@ function newNonPlayableCharacter(x, y) {
         await sleep(time)
         stop()
     }
+    
+    
+    
 
     function stop() {
         direction = null
