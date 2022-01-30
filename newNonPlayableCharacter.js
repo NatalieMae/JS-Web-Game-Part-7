@@ -28,9 +28,9 @@ function newNonPlayableCharacter(x, y) {
         direction = 'east'
         element.src = `./assets/red-character/east.gif`
         await sleep(time)
-        while (walkEast < 3){
-            direction++;
-            return(walkEast);}
+        while (direction <= 3){
+            direction + walkEast;
+            return(walkEast++);}
         stop()
         
     }
@@ -40,9 +40,9 @@ function newNonPlayableCharacter(x, y) {
         direction = 'north'
         element.src = `./assets/red-character/north.gif`
         await sleep(time)
-        while (walkNorth < 3){
-        direction++;
-        return(walkNorth);}
+        while (direction <= 3){
+        direction + walkNorth;
+        return(walkNorth++);}
         stop()
        }
 
@@ -50,9 +50,9 @@ function newNonPlayableCharacter(x, y) {
         direction = 'west'
         element.src = `./assets/red-character/west.gif`
         await sleep(time)
-        while (walkWest < 3){
-            direction++;
-            return(walkWest);}
+        while (direction <= 3){
+            direction + walkWest;
+            return(walkWest++);}
         stop()
     }
 
@@ -60,9 +60,9 @@ function newNonPlayableCharacter(x, y) {
         direction = 'south'
         element.src = `./assets/red-character/south.gif`
         await sleep(time)
-        while (walkSouth < 3){
-            direction++;
-            return(walkSouth);}
+        while (direction <= 3){
+            direction + walkSouth;
+            return(walkSouth++);}
         stop()
     }
     
