@@ -22,37 +22,27 @@ function newNonPlayableCharacter(x, y) {
     }
 
     setInterval(moveCharacter, 1)
- 
+
 
     async function walkEast(time) {
         direction = 'east'
         element.src = `./assets/red-character/east.gif`
         await sleep(time)
-        while (direction <= 3){
-            direction + walkEast;
-            return(walkEast++);}
         stop()
-        
-    }
+        }
     
 
     async function walkNorth(time) {
         direction = 'north'
         element.src = `./assets/red-character/north.gif`
         await sleep(time)
-        while (direction <= 3){
-        direction + walkNorth;
-        return(walkNorth++);}
-        stop()
-       }
+            stop()
+        }
 
     async function walkWest(time) {
         direction = 'west'
         element.src = `./assets/red-character/west.gif`
         await sleep(time)
-        while (direction <= 3){
-            direction + walkWest;
-            return(walkWest++);}
         stop()
     }
 
@@ -60,9 +50,6 @@ function newNonPlayableCharacter(x, y) {
         direction = 'south'
         element.src = `./assets/red-character/south.gif`
         await sleep(time)
-        while (direction <= 3){
-            direction + walkSouth;
-            return(walkSouth++);}
         stop()
     }
     
