@@ -17,11 +17,11 @@ async function moveNPC() {
     }       
 
     
-moveNPC(npc > 1)
+moveNPC()
 while (moveNPC > 1){
-    moveNPC(npc + i++)} 
-    
-
+    moveNPC(npc + i++) 
+    console.log(moveNPC += 5)
+}
 // Create the inventory
 const inventory = newInventory()
 move(inventory).to(0, 0)
